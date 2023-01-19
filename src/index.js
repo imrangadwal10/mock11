@@ -2,7 +2,7 @@ const express = require("express");
 const connect=require("./config/connect")
 const cors = require("cors");
 const app = express();
-const PORT = 8080;
+const PORT = 5005;
 
 
 const userRoute = require("./user/user.route")
